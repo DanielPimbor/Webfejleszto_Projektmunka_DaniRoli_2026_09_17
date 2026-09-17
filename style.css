@@ -3,10 +3,45 @@ body{
     color: white;
     font-family: 'Segoe UI';
 }
+
+h1{
+    background-color: rgb(255, 255, 83);
+    color: black;
+}
+
+
+h2{
+    font-size: 45px;
+    background-color: rgb(255, 255, 83);
+    color: black;
+}
+
+.pontok{
+    padding: 12px 20px;
+    text-align: center;
+}
+
+.pontok a {
+  display: inline-block;      
+  color: rgb(255, 255, 83);
+  text-decoration: none;   
+  padding: 6px 34px;
+  margin: 10px;
+  font-size: 30px;
+}
+
+.container   {
+  background-color: rgb(44, 42, 42);
+  border: 1px solid #e2ddd3;      /* vékony, halvány keret körben */
+  border-left: 6px solid rgb(255, 252, 96);  /* vastag színes csík balra */
+  border-radius: 12px;
+  padding: 24px 28px;            /* BELSŐ térköz: keret és szöveg között */
+  margin-bottom: 26px;          /* KÜLSŐ térköz: a következő dobozig */
+}
+
 .fejlec{
     background-color: black;
-
-
+    position: relative;
 }
 
 .fejlec h1 {                        
@@ -14,16 +49,14 @@ body{
     font-size: 100px;
 }
 
-.profilkep{
-    width: 500px;
-    height: 500px;
-    margin-left: 600px;
-    margin-right: 600px;
+.fejlec img {
+    display: block;
+    margin: 0 auto;
 }
 
 ::selection {
-    background-color: yellow;
-    color: white;
+    background-color: rgba(255, 255, 0, 0.753);
+    color: rgb(0, 0, 0);
 }
 
 .menu {
