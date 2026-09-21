@@ -1,23 +1,35 @@
-body {
-    background-color: rgb(46, 45, 45);
-    color: white;
-    font-family: 'Segoe UI';
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600;700&display=swap');
+
+h2, h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
 }
 
 h1 {
-    background-color: rgb(255, 255, 83);
-    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bolder;
+    transform: scaleY(1.4);
+    font-size: 100px;
+    color: rgb(255, 241, 44);
 }
 
 
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
 h2 {
-    font-size: 45px;
-    background-color: rgb(255, 255, 83);
-    color: black;
+    font-size: 45px;;
+    color: rgb(255, 241, 44);
 }
 
 .bemutatkozas p {
-    color:  rgb(255, 255, 83); 
+    color:  rgb(255, 241, 44);
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
 }
 
 .pontok {
@@ -27,24 +39,64 @@ h2 {
 
 .pontok a {
     display: inline-block;
-    color: rgb(255, 255, 83);
+    color: rgb(255, 241, 44);
     text-decoration: none;
     padding: 6px 34px;
     margin: 10px;
-    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 50px;
+    font-weight: bold;
 }
 
 .container {
-    background-color: rgb(44, 42, 42);
-    border: 1px solid #e2ddd3;
-    /* vékony, halvány keret körben */
-    border-left: 6px solid rgb(255, 252, 96);
-    /* vastag színes csík balra */
     border-radius: 12px;
     padding: 24px 28px;
-    /* BELSŐ térköz: keret és szöveg között */
     margin-bottom: 26px;
-    /* KÜLSŐ térköz: a következő dobozig */
+    font-size: 20px;
+}
+
+.container h2{
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+}
+
+
+
+
+.csapattagok-sor {
+    display: flex;
+    align-items: center;
+}
+
+#csapattagok {
+    width: 50%;
+}
+
+.csapattagok-kepei {
+    width: 50%;
+    text-align: center;
+}
+
+.csapattagok-kepei img {
+    max-width: 70%;
+}
+
+#munkaink{
+    width: 50%;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+#terveink{
+    width:50%;
+}
+
+#allashirdetes{
+    width: 50%;
+    margin-left: auto;
+    margin-right: 0;
 }
 
 .fejlec {
@@ -63,7 +115,7 @@ h2 {
 }
 
 ::selection {
-    background-color: rgba(255, 255, 0, 0.753);
+    background-color: rgb(255, 241, 44);
     color: rgb(0, 0, 0);
 }
 
