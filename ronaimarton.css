@@ -1,0 +1,52 @@
+@import url('https://googleapis.com');
+
+body { 
+    background-color: #05030a; /*itt ezt a háttér ötletet chatgpttől kértük el, máshol nem találtuk*/
+    background-image: radial-gradient(
+        ellipse at 50% 0%,
+        rgb(65, 65, 70) 0%,
+        rgb(25, 24, 30) 30%,
+        rgb(5, 3, 10) 65%
+    );
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 2px;
+}
+
+h1{
+    font-size: 100px;
+    text-align: center;
+}
+
+.rublika {
+  background-color: rgb(0, 0, 0);
+  padding: 0.009rem;
+  border-radius: 10px;
+  width: 50%;
+  text-align: center;
+  box-shadow: 0 4px 20px rgb(255, 255, 255);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: transform 0.3s ease;
+}
+
+
+.fejlec p{
+    text-align: center;
+    font-size: 20px
+}
+
+.arazas h2{
+    text-align: center;
+}
+
+.funkciok h2, h3{
+    text-align: center;
+}
+
+.garancia h2{
+    text-align: center;
+}
