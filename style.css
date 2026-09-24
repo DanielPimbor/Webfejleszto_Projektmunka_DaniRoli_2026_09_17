@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600;700&display=swap');
 
-h2, h3 {
+h2,
+h3 {
     font-family: 'Bebas Neue', sans-serif;
     letter-spacing: 2px;
 }
@@ -13,7 +14,6 @@ h1 {
     color: rgb(255, 241, 44);
 }
 
-
 body {
     background-color: rgb(0, 0, 0);
     color: white;
@@ -21,103 +21,11 @@ body {
 }
 
 h2 {
-    font-size: 45px;;
+    font-size: 45px;
     color: rgb(255, 241, 44);
 }
 
-.bemutatkozas p {
-    color:  rgb(255, 241, 44);
-    font-size: 30px;
-    text-align: center;
-    font-style: italic;
-}
-
-.pontok {
-    padding: 12px 20px;
-    text-align: center;
-}
-
-.pontok a {
-    display: inline-block;
-    color: rgb(255, 241, 44);
-    text-decoration: none;
-    padding: 6px 34px;
-    margin: 10px;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    font-size: 50px;
-    font-weight: bold;
-}
-
-.container {
-    border-radius: 12px;
-    padding: 24px 28px;
-    margin-bottom: 26px;
-    font-size: 20px;
-}
-
-.container h2{
-    text-align: center;
-    font-size: 60px;
-    font-style: italic;
-}
-
-
-
-
-.csapattagok-sor {
-    display: flex;
-    align-items: center;
-}
-
-#csapattagok {
-    width: 50%;
-}
-
-.csapattagok-kepei {
-    width: 50%;
-    text-align: center;
-}
-
-.csapattagok-kepei img {
-    max-width: 70%;
-}
-
-table {
-    margin: 0 auto;
-    border-spacing: 30px 0;
-}
-
-td {
-    text-align: center;
-    vertical-align: middle;
-    padding: 15px 30px;
-    border: 2px solid rgb(255, 241, 44);
-    border-radius: 10px;
-}
-
-
-td:hover {
-  transform: scale(1.05);
-  transition: all ease-in-out 0.2s;
-  box-shadow: 0px 0px 30px rgb(255, 241, 44); 
-}
-
-#munkaink{
-    width: 50%;
-    margin-left: auto;
-    margin-right: 0;
-}
-
-#terveink{
-    width:50%;
-}
-
-#allashirdetes{
-    width: 50%;
-    margin-left: auto;
-    margin-right: 0;
-}
+/* FEJLÉC */
 
 .fejlec {
     background-color: black;
@@ -140,8 +48,194 @@ td:hover {
 }
 
 .menu {
-    background-color: rgb(218, 214, 0);
+    background-color: rgb(255, 241, 44);
     padding: 12px 20px;
     text-align: center;
     color: black;
+}
+
+.bemutatkozas p {
+    color: rgb(255, 241, 44);
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+}
+
+.pontok {
+    padding: 12px 20px;
+    text-align: center;
+}
+
+.pontok a {
+    display: inline-block;
+    color: rgb(255, 241, 44);
+    text-decoration: none;
+    padding: 6px 34px;
+    margin: 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 50px;
+    font-weight: bold;
+    transition: transform 0.2s ease-in-out;
+}
+
+.pontok a:hover {
+    transform: scale(1.2);
+}
+
+.container {
+    border-radius: 12px;
+    padding: 24px 28px;
+    margin-bottom: 26px;
+    font-size: 20px;
+}
+
+.container h2 {
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+}
+
+/* CSAPATTAGOK */
+
+.csapattagok-sor {
+    display: flex;
+    align-items: center;
+}
+
+#csapattagok {
+    width: 50%;
+}
+
+.csapattagok-kepei {
+    width: 50%;
+    text-align: center;
+}
+
+.csapattagok-kepei img {
+    max-width: 70%;
+}
+
+/* NEVEK */
+
+.nevek {
+    margin: 0 auto;
+    border-spacing: 30px 0;
+}
+
+.nevek td {
+    text-align: center;
+    padding: 15px 30px;
+    border: 2px solid rgb(255, 241, 44);
+    border-radius: 10px;
+    min-width: 180px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.nevek td:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 30px rgb(255, 241, 44);
+}
+
+.nevek a {
+    text-decoration: none;
+    color: white;
+}
+
+/* FELADATOK */
+
+.feladatok {
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 20px 10px;
+}
+
+.feladatok th {
+    color: rgb(255, 241, 44);
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 30px;
+}
+
+.feladatok td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 20px;
+    font-size: 22px;
+}
+
+/* MUNKÁINK */
+
+.munkaink-sor {
+    display: flex;
+    align-items: center;
+}
+
+.ronaimartonkepe {
+    width: 50%;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.ronaimartonkepe img {
+    max-width: 70%;
+}
+
+.ronaimartonkepe:hover {
+    transform: scale(1.05);
+}
+
+#munkaink {
+    width: 50%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#munkaink h3 {
+    font-size: 30px;
+    color: rgb(255, 241, 44);
+    transition: transform 0.2s ease-in-out;
+}
+
+#munkaink h3:hover{
+    transform: scale(1.02);
+}
+
+/* TERVEK */
+
+#terveink {
+    width: 50%;
+}
+
+.terveink-sor {
+    display: flex;
+    align-items: center;
+}
+
+.Batman-kepe {
+    width: 40%;
+    text-align: center;
+}
+
+.Batman-kepe img {
+    max-width: 70%;
+    border-radius: 25px;
+}
+
+/* ÁLLÁSHIRDETÉS */
+
+#allashirdetes {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+/* KIJELÖLÉS */
+
+
+footer {
+  background-color: rgb(255, 241, 44);
+  text-align: center;
+  padding: 0.007rem;
+  font-size: 20px;
+  color: black;
 }
