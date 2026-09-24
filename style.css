@@ -83,6 +83,26 @@ h2 {
     max-width: 70%;
 }
 
+table {
+    margin: 0 auto;
+    border-spacing: 30px 0;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px 30px;
+    border: 2px solid rgb(255, 241, 44);
+    border-radius: 10px;
+}
+
+
+td:hover {
+  transform: scale(1.05);
+  transition: all ease-in-out 0.2s;
+  box-shadow: 0px 0px 30px rgb(255, 241, 44); 
+}
+
 #munkaink{
     width: 50%;
     margin-left: auto;
