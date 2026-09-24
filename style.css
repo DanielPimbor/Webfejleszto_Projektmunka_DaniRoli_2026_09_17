@@ -1,3 +1,4 @@
+/* Ez itt AI */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600;700&display=swap');
 
 h2,
@@ -104,6 +105,7 @@ h2 {
 }
 
 #csapattagok {
+    /* a képek és a fotók elrendezéséhez kellett ai-t használni */
     width: 50%;
 }
 
@@ -197,7 +199,7 @@ h2 {
     transition: transform 0.2s ease-in-out;
 }
 
-#munkaink h3:hover{
+#munkaink h3:hover {
     transform: scale(1.02);
 }
 
@@ -233,9 +235,9 @@ h2 {
 
 
 footer {
-  background-color: rgb(255, 241, 44);
-  text-align: center;
-  padding: 0.007rem;
-  font-size: 20px;
-  color: black;
+    background-color: rgb(255, 241, 44);
+    text-align: center;
+    padding: 0.007rem;
+    font-size: 20px;
+    color: black;
 }
