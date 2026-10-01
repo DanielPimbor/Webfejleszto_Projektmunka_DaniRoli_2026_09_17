@@ -88,7 +88,7 @@ h1{
 .ar {
     border: 2px solid rgb(237, 237, 240);
     box-shadow: 0px 0px 10px 2px rgb(255, 255, 255);
-    border-radius: 10px;
+    border-radius: 30px;
     padding: 20px;
     margin-left: 30px;
     margin-right: 30px;
@@ -96,6 +96,28 @@ h1{
     box-sizing: border-box;
     font-size: 20px;
     text-align: center;
+}
+
+.testreszabas{
+    text-align: center;
+}
+
+
+.testreszabas h2{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.testreszabas img{
+    Text-align: center;
+
+}
+
+.testreszabas p{
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
 }
 
 footer {
