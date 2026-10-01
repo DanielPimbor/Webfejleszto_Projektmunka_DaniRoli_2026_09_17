@@ -23,11 +23,27 @@ h1{
 
 .fejlec p{
     text-align: center;
-    font-size: 20px
+    font-size: 20px;
+    margin-bottom: 100px;
+    
+}
+
+.fejlec {
+    border-bottom: 2px solid rgb(237, 237, 240);
+    border-radius: 0 0 50px 50px;
+    box-shadow: 0px 5px 10px -5px rgb(255, 255, 255);
 }
 
 .arazas h2{
     text-align: center;
+}
+
+.ar {
+    transition: 0.3s;
+}
+
+.ar:hover {
+    transform: scale(1.05);
 }
 
 .funkciok h2, h3{
@@ -56,6 +72,7 @@ h1{
     min-height: 250px;
     box-sizing: border-box;
     font-size: 20px;
+    text-align: center;
 }
 
 footer {
